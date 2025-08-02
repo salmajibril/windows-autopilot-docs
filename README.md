@@ -1,5 +1,4 @@
 # Getting Started with Windows Autopilot: A Deployment Overview for IT Admins
-
 Windows Autopilot simplifies the deployment of new devices by automating setup and configuration without reimaging. This guide provides a high-level overview for IT administrators looking to adopt Autopilot in enterprise environments.
 
 ## What Is Windows Autopilot?
