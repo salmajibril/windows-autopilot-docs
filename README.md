@@ -1,10 +1,8 @@
 # Getting Started with Windows Autopilot: A Deployment Overview for IT Admins
-
-Windows Autopilot simplifies the deployment of new devices by automating setup and configuration. This guide provides a high-level overview for IT administrators looking to adopt Autopilot in enterprise environments. Windows Autopilot simplifies device deployment by automating setup with minimal IT involvement.
+Windows Autopilot simplifies the deployment of new devices by automating setup and configuration. This guide provides a high-level overview for IT administrators looking to adopt Autopilot in enterprise environments, reducing manual IT involvement.
 
 ## What Is Windows Autopilot?
-
-Windows Autopilot is a cloud service that helps IT teams set up new Windows computers quickly and easily. It lets devices be ready to use right away by automatically applying company settings and apps when the user first turns them on.
+Windows Autopilot is a cloud service that helps IT teams set up new Windows computers quickly and easily. It prepares devices to be ready right out of the box by automatically applying company settings and apps when users first turn them on.
 
 ---
 
@@ -17,7 +15,7 @@ Windows Autopilot is a cloud service that helps IT teams set up new Windows comp
   Ensures company branding, policies, and apps are applied consistently.
 
 - **Seamless integration**  
-  Works with Microsoft Intune, Azure AD, and Microsoft 365.
+  Works with Microsoft Intune, Azure Active Directory (Azure AD), and Microsoft 365.
 
 ---
 
@@ -27,8 +25,8 @@ To use Autopilot, you’ll need:
 
 - Devices registered with the Windows Autopilot service
 - Azure Active Directory (Azure AD)
-- Microsoft Intune or a supported MDM service
-- Windows 10/11 Pro, Enterprise, or Education
+- Microsoft Intune or another supported MDM service
+- Windows 10/11 Pro, Enterprise, or Education editions
 
 ---
 
@@ -45,12 +43,12 @@ To use Autopilot, you’ll need:
    - Import the CSV file
 
 3. **Create an Autopilot Deployment Profile**
-   - Define out-of-box experience (OOBE) settings (e.g. privacy options and account type)
+   - Define out-of-box experience (OOBE) settings (e.g. privacy options, account type, etc.)
 
 4. **Assign the deployment profile to devices**
 
 5. **Ship devices to users**
-   - Upon first boot, devices configure automatically based on assigned profiles and policies.
+   - On the first boot, devices configure automatically based on assigned profiles and policies.
 
 ---
 
